@@ -1,0 +1,128 @@
+body {
+  background-color: #fff;
+  margin: 0 auto;
+  font-family: roboto;
+}
+header {
+  background-color: #466995;
+  border-bottom: 1px soild #466995;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+footer {
+  background-color: #dbe9ee;
+  text-align: center;
+  height: 100px;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+li {
+  color: #fff;
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80;
+  margin: 15px;
+}
+li:hover {
+  color: #2ea5d1;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+h1 {
+  color: #466995;
+  font-size: 32px;
+  font-weight: 300px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #333;
+  font-family: "Varela Round";
+  font-size: 26px;
+  font-weight: 300;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.welcome {
+  background-color: #dbe9ee;
+  box-sizing: border-box;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 90px;
+}
+
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  color: #466995;
+}
+
+.answer:hover {
+  background-color: #2ea5d1;
+  color: #fff;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.3);
+  mask-position: 5px 10px;
+  font-style: #fff;
+  display: inline-block;
+  scale: 120%;
+}
+.survery {
+  position: relative;
+  margin: 100px;
+}
+table {
+  width: 100%;
+  text-align: left;
+  color: rgb(58, 58, 58);
+  margin: 30px;
+  border-spacing: 2px;
+}
+th {
+  height: 40px;
+  color: #fff;
+  background-color: #3487a5;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  background-color: #dbe9ee;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: #466995;
+}
